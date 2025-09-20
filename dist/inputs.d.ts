@@ -1,4 +1,4 @@
-export declare function getInputs(): {
+export declare function getInputs(): { 
     skipDraft: boolean;
     addReviewers: boolean;
     addAssignees: boolean;
