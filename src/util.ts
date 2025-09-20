@@ -2,7 +2,7 @@ import * as core from '@actions/core'
 import * as github from '@actions/github'
 import sampleSize from 'lodash.samplesize'
 import { Inputs } from './inputs'
-
+ 
 export function skip(msg: string) {
   const { context } = github
   const type = context.payload.pull_request ? 'PR' : 'issue'
