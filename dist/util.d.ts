@@ -1,5 +1,5 @@
 import { Inputs } from './inputs';
-export declare function skip(msg: string): void;
+export declare function skip(msg: string): void; 
 export declare function isValidEvent(event: string, action?: string | string[]): boolean | "" | undefined;
 export declare function getOctokit(): import("@octokit/core").Octokit & import("@octokit/plugin-rest-endpoint-methods/dist-types/types").Api & {
     paginate: import("@octokit/plugin-paginate-rest").PaginateInterface;
