@@ -1,5 +1,5 @@
 {
-  "name": "auto-assign",
+  "name": "auto-assign", 
   "description": "Automatically add reviewers/assignees to issues/PRs",
   "version": "3.0.2",
   "main": "dist/index.js",
